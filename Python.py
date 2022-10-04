@@ -13,12 +13,12 @@ if __name__ == '__main__':
     
     sum = 0
     
-    values = student_marks[query_name]
+    values = student_marks[query_name]                 ## Gives the values attached to the key query_name
     
     for i in values:
-        sum += i
+        sum += i                                    ## Finds the sum of the values
         
     average = sum/len(values)
     
-    print('%.2f' % average)              ## Precision
+    print('%.2f' % average)              ## Precision to 2 places of decimal
  
